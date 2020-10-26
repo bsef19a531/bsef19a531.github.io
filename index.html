@@ -1,0 +1,165 @@
+<html>
+<head>
+        <title>S.E.A LMS</title>
+		<link rel = "icon" type = "image/png" href ="img/S.E.A web.png">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale = 1" >
+		<link rel ="stylesheet" href = "stylesheet/CSS.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://kit.fontawesome.com/0c49c62022.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Syne+Mono&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Sawarabi+Mincho&family=Syne+Mono&display=swap" rel="stylesheet">
+<body>
+	<div class="container-fluid">
+		<header>
+		<div class="row text-center">
+			<div class="col-md-3" id="header_logo_div">
+				<img src="img/S.E.A web.png" alt="Academy_logo" id="header_logo">
+			</div>
+			<div class="col-md-7" class="header_headings">
+				<h1 class="header_headings">SCIENCE EDUCATOR ACADEMY</h1>
+				<h1 class="header_headings">LEARNING MANAGEMENT SYSTEM</h1>
+				<h3 class="header_headings">The Sea of Knowledge</h3>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-12" ><div id="header_bottom_line_1"></div>
+		</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12"><div id="header_bottom_line_2"></div>
+		</div>
+	</div>
+	</header>
+
+	</div>
+
+	<div class="container-fluid">
+		<div class="row text-center" >
+				<div class="col-md-2"></div>
+				<div class="col-md-8" id="body_main">
+				<h2 id="body_main_font">Welcome to S.E.A LMS</h2>
+				<div>
+					<h4><u>Login</u></h4>
+					<hr>
+
+				</div>
+				
+					<form>
+						<div class="login">
+							<label><b>User ID</b></label>
+							<input type="text" placeholder="User ID" name="userid"><br>
+							<label id="label_password"><b>Password </b></label>
+							<input type="password" placeholder= "Password" name="pswrd" id="pwd"><i class="fa fa-eye" style="padding-left:10px;" id="eye" onclick="toogle()"></i><br>
+							<input type="button" onclick="check(this.form)" value ="Login" id="body_button" >
+
+						</div>
+					</form>
+<!------------------------------------------------------------------------------------------------------------>
+
+					<script>
+						var state = false;
+						function toogle(){
+							if(state){
+								document.getElementById("pwd").setAttribute("type","password");
+								document.getElementById("eye").style.color='black';
+								state = false;
+							}
+							else{
+								document.getElementById("pwd").setAttribute("type","text");
+								document.getElementById("eye").style.color='#000abf';
+								state = true;
+							}
+						}
+					</script>
+					
+<!------------------------------------------------------------------------------------------------------------------>
+					<script language="javascript">
+					function check(form)
+					{
+					
+							if(form.userid.value == "rafay" && form.pswrd.value == "rafay" )
+							{
+								window.open("students/rafay/grades.html","_self")
+							}
+							else if(form.userid.value == "huzera" && form.pswrd.value == "huzera" )
+							{
+								window.open("students/huzera/grades.html","_self")
+							}
+							else if(form.userid.value == "humna" && form.pswrd.value == "humna" )
+							{
+								window.open("students/humna/grades.html","_self")
+							}
+							else if(form.userid.value == "moosa" && form.pswrd.value == "moosa" )
+							{
+								window.open("students/moosa/grades.html","_self")
+							}
+							else if(form.userid.value == "saif" && form.pswrd.value == "saif" )
+							{
+								window.open("students/saif/grades.html","_self")
+							}
+							else if(form.userid.value == "essa" && form.pswrd.value == "essa" )
+							{
+								window.open("students/essa/grades.html","_self")
+							}
+							else
+							{
+								alert("The User ID and Password you have Entered don't Match ")
+							}
+					}
+					</script>
+					
+				
+				</div>
+				<div class="col-md-2"><p><u><b>Note:</b></u> <i>For Any queries or issues contact LMS Administrator</i></p></div>
+				
+		</div>
+		<div class="row">
+			<div class="col-md-12"><div id="header_bottom_line_2"></div>
+		</div>
+		</div>
+		
+	</div>
+		
+	<div class="container-fluid">
+		<footer>
+		<div class="row">
+
+			<div class="col-md-4">
+				<h5 style="padding-left: 20px; text-align: center;">Contact Info</h5>
+				<div class="row">
+					<div class="col-md-12">
+						<div id="footer_bottom_line_1"></div>
+					</div>
+				</div>
+				<ul style="padding-left: 20px; text-align: center;">
+					<li>0333-4281605</li>
+					<li>0344-7184072</li>
+				</ul>
+			</div>
+
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-2 text-center">
+			</div>
+
+			<div class="col-md-4 text-center">
+				<div><h5>Address</h5></div>
+				<div class="row">
+					<div class="col-md-12">
+						<div id="footer_bottom_line_1"></div>
+					</div>
+				</div>
+			<p>	47/5-D Block Lane N0: 14 Wafaqi Colony,<br> New Campus, Lahore </p>
+			</div>
+		</div>
+	</footer>
+	</div>
+
+
+
+
+</body>
