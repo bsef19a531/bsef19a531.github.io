@@ -1,0 +1,665 @@
+<html>
+<head>
+        <title>S.E.A LMS</title>
+		<link rel = "icon" type = "image/png" href ="img/S.E.A web.png">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale = 1" >
+		<link rel ="stylesheet" href = "../student stylesheet/css.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://kit.fontawesome.com/0c49c62022.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Syne+Mono&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Sawarabi+Mincho&family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid">
+		<header>
+		<div class="row">
+            <div class="col-md-10">
+				<h1 id="heading">
+					S.E.A LEARNING MANAGEMENT SYESTEM
+				</h1>
+				<h3>
+					Student Portal
+				</h3>
+			</div>
+			<div class="col-md-2" id="heading_student">
+			<h3>
+				<u>Student</u>
+			</h3>
+			<h5>
+				Huzera Javed<br> Class: 9th <br> Session 2020
+			</h5>
+			</div>
+		</div>
+		</header>
+	</div>
+	<!----------------------------------FILE NAME------------------------------------------------------------->
+	<div id="mySidebar" class="sidebar">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="grades.html">Grades</a>
+		<a href="attendance.html">Attendance</a>
+		<a href="mis.html">Miscellaneous</a>
+		<a href="../../index.html">Logout</a>
+	  </div>
+	  
+	  <div id="main">
+		<button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+	  </div>
+	  <script>
+		  /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+			function openNav() {
+			document.getElementById("mySidebar").style.width = "250px";
+			document.getElementById("main").style.marginLeft = "250px";
+			}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+			function closeNav() {
+			document.getElementById("mySidebar").style.width = "0";
+			document.getElementById("main").style.marginLeft = "0";
+			}
+	  </script>
+
+<!--------------------------------------START OF CONTENT------------------------------------------------------>
+
+
+<div class="fluid-container">
+	<div class="row">
+		<div class="col-md-2" id="body_intro"></div>
+		<div class="col-md-8" id="body_intro">
+			<h3>
+				Grades Book
+			</h3>
+		</div>
+		<div class="col-md-2" id="body_intro">
+		<p id="date"></p>
+		</div>
+	</div>
+</div>
+<script>
+	var today = new Date();
+	var date = 'DATE: '+today.getDate()+'-'+(today.getMonth()+1)+'-'+(today.getFullYear());
+	document.getElementById("date").innerHTML = date;
+</script>
+
+<!-------------------------------------------TABLES ENGLISH--------------------------------------------------------------------->
+
+<div class="container-fluid text-center">
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+		
+			<div>
+			<h3 style="color:rgba(20,20,162,1); text-align: center;">
+				ENGLISH
+			</h3>
+			</div>	
+			<div class="table table-responsive-md table-bordered table-hover">
+				<table>
+					<thead>
+					<tr class="table_header">
+						<th>Test</th>
+						<th>Date</th>
+						<th>Total</th>
+						<th>Obt</th>
+						<th>Obt%</th>
+						<th>Remarks</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>T1</td>
+							<td>12-10-20</td>
+							<td>12</td>
+							<td>10</td>
+							<td>80.0</td>
+							<td>Good</td>
+						</tr>
+
+						<tr>
+							<td>T2</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>T3</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>T4</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+			<div>
+				<p><b><u>Note:</u></b> </p>
+				<div class="PASS"><p>95% or above is highlighted with GREEN</p></div>
+				<div class="FAIL">50% or below is highlighted with RED</div>
+			</div>
+				
+
+		</div>
+	</div>
+		<div class="col-md-4"></div>
+	</div>
+
+
+	<!-------------------------------------------TABLES URDU--------------------------------------------------------------------->
+
+<div class="container-fluid text-center">
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+		
+			<div>
+			<h3 style="color:rgba(20,20,162,1); text-align: center;">
+				URDU
+			</h3>
+			</div>	
+			<div class="table table-responsive-md table-bordered table-hover">
+				<table>
+					<thead>
+					<tr class="table_header">
+						<th>Test</th>
+						<th>Date</th>
+						<th>Total</th>
+						<th>Obt</th>
+						<th>Obt%</th>
+						<th>Remarks</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>T1</td>
+							<td>12-10-20</td>
+							<td>12</td>
+							<td>10</td>
+							<td>80.0</td>
+							<td>Good</td>
+						</tr>
+
+						<tr>
+							<td>T2</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>T3</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>T4</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+				
+		</div>
+	</div>
+		<div class="col-md-4"></div>
+	</div>
+
+
+
+
+	<!-------------------------------------------TABLES MATHEMATICS--------------------------------------------------------------------->
+
+<div class="container-fluid text-center">
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+		
+			<div>
+			<h3 style="color:rgba(20,20,162,1); text-align: center;">
+				MATHEMATICS
+			</h3>
+			</div>	
+			<div class="table table-responsive-md table-bordered table-hover">
+				<table>
+					<thead>
+					<tr class="table_header">
+						<th>Test</th>
+						<th>Date</th>
+						<th>Total</th>
+						<th>Obt</th>
+						<th>Obt%</th>
+						<th>Remarks</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>T1</td>
+							<td>12-10-20</td>
+							<td>12</td>
+							<td>10</td>
+							<td>80.0</td>
+							<td>Good</td>
+						</tr>
+
+						<tr>
+							<td>T2</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>T3</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>T4</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+				
+		</div>
+	</div>
+		<div class="col-md-4"></div>
+	</div>
+
+
+		<!-------------------------------------------TABLES BIOLOGY--------------------------------------------------------------------->
+
+<div class="container-fluid text-center">
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+		
+			<div>
+			<h3 style="color:rgba(20,20,162,1); text-align: center;">
+				BIOLOGY
+			</h3>
+			</div>	
+			<div class="table table-responsive-md table-bordered table-hover">
+				<table>
+					<thead>
+					<tr class="table_header">
+						<th>Test</th>
+						<th>Date</th>
+						<th>Total</th>
+						<th>Obt</th>
+						<th>Obt%</th>
+						<th>Remarks</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>T1</td>
+							<td>12-10-20</td>
+							<td>12</td>
+							<td>10</td>
+							<td>80.0</td>
+							<td>Good</td>
+						</tr>
+
+						<tr>
+							<td>T2</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>T3</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>T4</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+				
+		</div>
+	</div>
+		<div class="col-md-4"></div>
+	</div>
+
+
+	<!-------------------------------------------TABLES CHEMISTRY--------------------------------------------------------------------->
+
+	<div class="container-fluid text-center">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+			
+				<div>
+				<h3 style="color:rgba(20,20,162,1); text-align: center;">
+					CHEMISTRY
+				</h3>
+				</div>	
+				<div class="table table-responsive-md table-bordered table-hover">
+					<table>
+						<thead>
+						<tr class="table_header">
+							<th>Test</th>
+							<th>Date</th>
+							<th>Total</th>
+							<th>Obt</th>
+							<th>Obt%</th>
+							<th>Remarks</th>
+						</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>T1</td>
+								<td>12-10-20</td>
+								<td>12</td>
+								<td>10</td>
+								<td>80.0</td>
+								<td>Good</td>
+							</tr>
+	
+							<tr>
+								<td>T2</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+	
+							<tr>
+								<td>T3</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+	
+							<tr>
+								<td>T4</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+	
+				</div>
+					
+			</div>
+		</div>
+			<div class="col-md-4"></div>
+		</div>
+	
+
+	<!-------------------------------------------TABLES PHYSICS--------------------------------------------------------------------->
+
+	<div class="container-fluid text-center">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+			
+				<div>
+				<h3 style="color:rgba(20,20,162,1); text-align: center;">
+					PHYSICS
+				</h3>
+				</div>	
+				<div class="table table-responsive-md table-bordered table-hover">
+					<table>
+						<thead>
+						<tr class="table_header">
+							<th>Test</th>
+							<th>Date</th>
+							<th>Total</th>
+							<th>Obt</th>
+							<th>Obt%</th>
+							<th>Remarks</th>
+						</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>T1</td>
+								<td>12-10-20</td>
+								<td>12</td>
+								<td>10</td>
+								<td>80.0</td>
+								<td>Good</td>
+							</tr>
+	
+							<tr>
+								<td>T2</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+	
+							<tr>
+								<td>T3</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+	
+							<tr>
+								<td>T4</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+	
+				</div>
+					
+			</div>
+		</div>
+			<div class="col-md-4"></div>
+		</div>
+	
+
+
+			<!-------------------------------------------TABLES ISLAMIYAT--------------------------------------------------------------------->
+
+	<div class="container-fluid text-center">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+			
+				<div>
+				<h3 style="color:rgba(20,20,162,1); text-align: center;">
+					ISLAMIYAT
+				</h3>
+				</div>	
+				<div class="table table-responsive-md table-bordered table-hover">
+					<table>
+						<thead>
+						<tr class="table_header">
+							<th>Test</th>
+							<th>Date</th>
+							<th>Total</th>
+							<th>Obt</th>
+							<th>Obt%</th>
+							<th>Remarks</th>
+						</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>T1</td>
+								<td>12-10-20</td>
+								<td>12</td>
+								<td>10</td>
+								<td>80.0</td>
+								<td>Good</td>
+							</tr>
+	
+							<tr>
+								<td>T2</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+	
+							<tr>
+								<td>T3</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+	
+							<tr>
+								<td>T4</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+	
+				</div>
+					
+			</div>
+		</div>
+			<div class="col-md-4"></div>
+		</div>
+
+
+
+			<!-------------------------------------------TABLES PAK.St--------------------------------------------------------------------->
+
+	<div class="container-fluid text-center">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+			
+				<div>
+				<h3 style="color:rgba(20,20,162,1); text-align: center;">
+					PAK.St
+				</h3>
+				</div>	
+				<div class="table table-responsive-md table-bordered table-hover">
+					<table>
+						<thead>
+						<tr class="table_header">
+							<th>Test</th>
+							<th>Date</th>
+							<th>Total</th>
+							<th>Obt</th>
+							<th>Obt%</th>
+							<th>Remarks</th>
+						</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>T1</td>
+								<td>12-10-20</td>
+								<td>12</td>
+								<td>10</td>
+								<td>80.0</td>
+								<td>Good</td>
+							</tr>
+	
+							<tr>
+								<td>T2</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+	
+							<tr>
+								<td>T3</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+	
+							<tr>
+								<td>T4</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+	
+				</div>
+					
+			</div>
+		</div>
+			<div class="col-md-4"></div>
+		</div>
+
+
+</body>
+</html>

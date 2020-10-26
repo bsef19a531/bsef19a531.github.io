@@ -1,0 +1,127 @@
+background {
+                background-color: white;     
+}
+header{
+	background: rgb(2,0,36);
+    background: linear-gradient(20deg, rgba(2,0,36,1) 0%, rgba(20,20,162,1) 36%, rgba(0,212,255,1) 99%);
+}
+
+#header_logo{ 
+	height:  180px;
+	width: 180px; 
+	background-color: white;
+	float: left;
+}
+
+.header_headings{
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+/*.header_heading_slogan{
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Syne Mono', monospace;
+	color: white;
+}*/
+#header_bottom_line_1{
+	width: 100%;
+	height: 10px;
+	background-color:#7da6ff;
+	display: block;
+}
+.row #header_bottom_line_2{
+	width: 100%;
+	height: 10px;
+	background-color: #004ffa;
+	display: block;
+}
+.container-fluid #body_main{
+	background-color: #91d3ff;
+	height: 400px;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Sawarabi Mincho', sans-serif;
+	
+
+	color:Black;
+}
+input[type = text], input[type = password]{
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #004ffa;
+}
+input[type=text]:focus, input[type=password]:focus {
+	background-color: ;
+	border: 3px solid #000abf;
+  }
+
+input[type="button"]{
+	background: white;
+	border: none;
+	margin: 4px 2px;
+	width: 80px;
+	box-sizing: content-box;
+	font-size: 18px;
+	float: center;
+}
+input[type="button"]:hover{
+	background: #000abf;
+	border: none;
+	margin: 4px 2px;
+	box-sizing: content-box;
+	font-size: 18px;
+	color: white;
+}
+footer{
+	background: linear-gradient(20deg, rgba(2,0,36,1) 0%, rgba(20,20,162,1) 36%, rgba(0,212,255,1) 99%);
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Sawarabi Mincho', sans-serif;
+}
+#footer_bottom_line_1{
+	width: 100%;
+	height: 7px;
+	background-color:#7da6ff;
+	display: block;
+}
+
+
+@media only screen and (max-width: 950px)
+{
+.header_headings{
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 768px)
+{
+	div#header_logo_div.col-md-3{
+		
+		text-align: center;
+		background-color: white;
+		justify-content: center;
+		width:100%;
+		display: none;
+	}	
+	img#header_logo{
+		float: center;
+		text-align: center;
+	}
+	#header_logo{
+		float: center;
+		text-align: center;
+	}
+}
+
+#label_password{
+	margin-left: 13px;
+}
+
+.fa{
+		color: #000abf;
+		cursor: pointer;
+
+}

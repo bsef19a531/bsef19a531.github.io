@@ -1,0 +1,263 @@
+<html>
+<head>
+        <title>S.E.A LMS</title>
+		<link rel = "icon" type = "image/png" href ="img/S.E.A web.png">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale = 1" >
+		<link rel ="stylesheet" href = "../student stylesheet/css.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://kit.fontawesome.com/0c49c62022.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Syne+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Sawarabi+Mincho&family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid">
+		<header>
+		<div class="row">
+            <div class="col-md-10">
+				<h1 id="heading">
+					S.E.A LEARNING MANAGEMENT SYESTEM
+				</h1>
+				<h3>
+					Student Portal
+				</h3>
+			</div>
+			<div class="col-md-2" id="heading_student">
+			<h3>
+				<u>Student</u>
+			</h3>
+			<h5>
+				Humna Javed<br> Class: 7th <br> Session 2020
+			</h5>
+			</div>
+		</div>
+		</header>
+	</div>
+	<!----------------------------------FILE NAME------------------------------------------------------------->
+	<div id="mySidebar" class="sidebar">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="grades.html">Grades</a>
+		<a href="attendance.html">Attendance</a>
+		<a href="mis.html">Miscellaneous</a>
+		<a href="../../index.html">Logout</a>
+	  </div>
+	  
+	  <div id="main">
+		<button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+	  </div>
+	  <script>
+		  /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+			function openNav() {
+			document.getElementById("mySidebar").style.width = "250px";
+			document.getElementById("main").style.marginLeft = "250px";
+			}
+
+ /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+			function closeNav() {
+			document.getElementById("mySidebar").style.width = "0";
+			document.getElementById("main").style.marginLeft = "0";
+			}
+	  </script>
+
+ <!--------------------------------------START OF CONTENT------------------------------------------------------>
+
+
+ <div class="fluid-container">
+	<div class="row">
+		<div class="col-md-2" id="body_intro"></div>
+		<div class="col-md-8" id="body_intro">
+			<h3>
+				Attendance Register
+			</h3>
+		</div>
+		<div class="col-md-2" id="body_intro">
+		<p id="date"></p>
+		</div>
+	</div>
+ </div>
+ <script>
+	var today = new Date();
+	var date = 'DATE: '+today.getDate()+'-'+(today.getMonth()+1)+'-'+(today.getFullYear());
+	document.getElementById("date").innerHTML = date;
+ </script>
+
+ <!-------------------------------------------TABLES Attendance--------------------------------------------------------------------->
+
+ <div class="container-fluid text-center">
+	<div class="row">
+		<div class="col-md-5">
+            <div style="padding: 10px;">
+                <h6>
+                    <b>Total Presents Last Month: -- </b>
+                </h6>
+                <h6>
+                    <b>Total Absents Last Month: -- </b> 
+                </h6>
+            </div>
+        </div>
+		<div class="col-md-2">
+		
+			<div>
+			<h3 style="color:rgba(20,20,162,1); text-align: center;">
+				November 2020
+			</h3>
+			</div>	
+			<div class="table table-responsive-md table-bordered table-hover">
+				<table>
+					<thead>
+					<tr class="table_header">
+						<th>Day</th>
+						<th>Attendance</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>01</td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>02</td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>03</td>
+							<td></td>
+                        </tr>
+                        
+                        <tr>
+							<td>04</td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>05</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>06</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>07</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>08</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>09</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>10</td>
+							<td></td>
+                        </tr>
+
+                        <tr>
+							<td>11</td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>12</td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>13</td>
+							<td></td>
+                        </tr>
+                        
+                        <tr>
+							<td>14</td>
+							<td></td>
+                        </tr>
+                        
+						<tr>
+							<td>15</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>16</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>17</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>18</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>19</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>20</td>
+							<td></td>
+                        </tr>
+                        
+                        <tr>
+							<td>21</td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>22</td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>23</td>
+							<td></td>
+                        </tr>
+                        
+                        <tr>
+							<td>24</td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td>25</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>26</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>27</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>28</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>29</td>
+							<td></td>
+                        </tr>
+                        <tr>
+							<td>30</td>
+							<td></td>
+                        </tr>
+
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+	</div>
+		<div class="col-md-5"></div>
+    </div>
+    
+
+
+</body>
+</html>
