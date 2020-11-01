@@ -102,7 +102,7 @@ footer{
 
 @media only screen and (max-width: 768px)
 {
-	div#header_logo_div.col-md-3{
+	/*div#header_logo_div.col-md-3{
 		
 		text-align: center;
 		background-color: white;
@@ -117,7 +117,7 @@ footer{
 	#header_logo{
 		float: center;
 		text-align: center;
-	}
+	}*/
 }
 
 #label_password{
