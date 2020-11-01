@@ -6,11 +6,15 @@ header{
     background: linear-gradient(20deg, rgba(2,0,36,1) 0%, rgba(20,20,162,1) 36%, rgba(0,212,255,1) 99%);
 }
 
+#header_logo_div{
+	background-color: white;
+}
+
 #header_logo{ 
 	height:  180px;
 	width: 180px; 
 	background-color: white;
-	float: left;
+	float: center;
 }
 
 .header_headings{
