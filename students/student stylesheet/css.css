@@ -92,13 +92,13 @@ header{
             font-size: 25px;
 }
 .table-bordered td, .table-bordered th{
-          font-size: 18px;
+          font-size: 25px;
 }
 .PASS{
-        font-size: 19px;
+        font-size: 25px;
 }
 .FAIL{
-        font-size: 19px;
+        font-size: 25px;
 }
 
 }
