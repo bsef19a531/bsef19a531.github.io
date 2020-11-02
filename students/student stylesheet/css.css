@@ -91,14 +91,14 @@ header{
 #heading{
             font-size: 25px;
 }
-.table-bordered td, .table-bordered th{
+/*.table-bordered td, .table-bordered th{
           font-size: 25px;
-}
+}*/
 .PASS{
-        font-size: 25px;
+        font-size: 15px;
 }
 .FAIL{
-        font-size: 25px;
+        font-size: 15px;
 }
 
 }
