@@ -91,6 +91,16 @@ header{
 #heading{
             font-size: 25px;
 }
+.table-bordered td, .table-bordered th{
+          font-size: 12px;
+}
+.PASS{
+        font-size: 12px;
+}
+.FAIL{
+        font-size: 12px;
+}
+
 }
 
 
