@@ -151,3 +151,7 @@ padding: 5px;
 .A{
     background-color:  #00ff55;
 }
+
+.table-bordered td, .table-bordered th{
+          text-align: center;
+}
