@@ -105,9 +105,17 @@
 							{
 								window.open("students/essa/grades.html","_self")
 							}
+							else if(form.pswrd.value == "" )
+							{
+								alert("Please type Password to Login your account")
+							}
+							else if(form.userid.value == "" )
+							{
+								alert("Please type User ID to Login your account")
+							}
 							else if(form.userid.value == "" || form.pswrd.value == "" )
 							{
-								alert("Login information is left blank.")
+								alert("Please type User ID and Password to Login your account")
 							}
 							else
 							{
