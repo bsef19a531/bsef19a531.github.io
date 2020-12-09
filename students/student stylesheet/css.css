@@ -155,3 +155,8 @@ padding: 5px;
 .table-bordered td, .table-bordered th{
           text-align: center;
 }
+#borderimg2 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 stretch;
+}
